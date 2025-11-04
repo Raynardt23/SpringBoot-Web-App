@@ -1,0 +1,35 @@
+HELP.md
+# --- Maven ---
+/target/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+/logs/
+
+# --- IntelliJ / Eclipse ---
+/.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+
+# --- OS specific ---
+.DS_Store
+Thumbs.db
+
+# --- Docker ---
+*.log
+docker-compose.override.yml
+
+# --- Environment variables ---
+.env
+
+# --- PostgreSQL data ---
+/postgres-data/
+
+# --- Optional ---
+*.bak
+*.tmp

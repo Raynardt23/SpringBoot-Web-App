@@ -1,0 +1,20 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Profile</title></head>
+<body>
+<h1>Profile</h1>
+<div>
+    <p>Username: <span th:text="${user.username}"></span></p>
+    <form th:action="@{/profile}" method="post">
+        <label>Full Name: <input name="fullName" th:value="${user.fullName}"/></label><br/>
+        <label>Email: <input name="email" th:value="${user.email}"/></label><br/>
+        <button type="submit">Save</button>
+    </form>
+</div>
+
+<form th:action="@{/logout}" method="post" style="display:inline;">
+    <button type="submit">Logout</button>
+</form>
+
+</body>
+</html>
