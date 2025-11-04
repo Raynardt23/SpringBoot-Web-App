@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      IMAGE_NAME: my-dockerhub-username/my-spring-app
+      IMAGE_NAME: Raynardt23/SpringBoot-Web-App
       TAG: latest
 
     steps:
